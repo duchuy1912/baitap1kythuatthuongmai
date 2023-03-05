@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* phần mở đầu */
+.bar{
+
+}
+.bar__contact{
+    background-color: #a9161c;
+    display: flex;
+    color: aliceblue;
+    padding: 20px;
+    padding-left: 200px;
+}
+.bar__contact img {
+    width: 22px;
+    height: 18px;
+    margin: 3px;
+    
+}
+.bar__contact p {
+    margin: 3px;
+}
+.bar__menu{
+    display: flex;
+    background-color: #d9291d;
+    justify-content: space-between;
+}
+.menu__order{
+    margin-right: 100px;
+    /* height: 100%; */
+    display: flex;
+}
+.menu__order a{
+    color: white;
+    line-height: 55px;
+    border-right: 1px solid white;
+    height: 100%;
+    padding:0px 7px;
+}
+.menu__order a:hover{
+    background-color: #382626;
+}
+.bar__menu img{
+    height: 55px;
+    margin-left: 200px;
+    padding: 7px;
+}
+.bar__sud{
+    display: flex;
+    background-color: #e0e0e0;
+    height: 40px;
+    padding-left: 200px;
+    line-height: 40px;
+    font-size: 13px;
+}
+.bar__sud a{
+    color: black;
+
+}
+/* nội dung */
+.content{
+    margin: 30px 200px;
+    display: flex;
+
+}
+.content__narbar{
+    width: 260px;
+}
+.narbar__text {
+    margin-bottom: 20px;
+}
+.narbar__text a{
+    display: block;
+    color: black;
+    width: 260px;
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.narbar__text h4{
+    display: block;
+    color: #b01c30;
+    width: 260px;
+    padding: 0 5px 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.narbar__img{
+    background-color: #dcdcdc;
+}
+.narbar__img img{
+    width: 180px;
+    margin: 10px 40px;
+}
+.content__main{
+    margin-left: 30px;
+    /* display: flex; */
+}
+.main__text1{
+
+}
+.main__text1 h3{
+
+}
+
+
+.main__title img {
+    margin: 40px 0;
+}
+.main__posts{
+    display: flex;
+}
+.posts__noidungchinh{
+    /* background-color: blue; */
+    width: 600px;
+}
+.noidungchinh__gtkcntt{
+    display: flex;
+    border-bottom: 2px dashed #ccc;
+}
+.gtkcntt__img img{
+    width: 300px;
+}
+.gtkcntt__text h4{
+    margin: 10px 0 0 10px;
+}
+.gtkcntt__text p{
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+}
+.noidungchinh__conlai{
+
+}
+.noidungchinh__conlai1{
+    padding: 10px 10px 10px 0;
+    font-size: 14px;
+    display: flex;
+    border-bottom: 2px dashed #ccc;
+}
+.conlai__img img{
+    width: 230px;
+}
+.conlai__text h4{
+    margin: 10px 0 0 10px;
+}
+.conlai__text p{
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+}
+.posts__baivietmoinhat{
+    width: 230px;
+    margin-left: 30px;
+}
+.baivietmoinhat__item{
+    display: flex;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.baivietmoinhat__title{
+    width: 100%;
+    background-color: #cf141a;
+    color: white;
+    padding: 10px;
+}
+.baivietmoinhat__title p{
+    margin-left: 30px;
+}
+.item__img {
+    width: 100px;
+}
+.item__img img{
+    width: 100px;
+}
+.item__text p{
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0 5px;
+}
+/* phần cuối */
+.contact{
+    background-color: #ebebeb;
+    height: 120px;
+}
+.narbar__text-a:hover{
+    color: #a9161c;
+}
+.contact p{
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+}
